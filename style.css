@@ -19,7 +19,8 @@
         margin-left: 2rem;
     }
     .second-section{
-        
+        display: flex;
+        flex-direction: column;
     }
     .second-section a{
         text-decoration: none;
@@ -29,5 +30,28 @@
     .img-sec{
         height: 15rem;
         width: 26rem;
+    }
+    .third-section{
+        background-color: black;
+        color: white;
+        position: relative;
+        height: 130vh;
+    }
+    .third-section li{
+        position: absolute;
+        top: 9%;
+    }
+    .t-div1{
+        position: absolute;
+        top: 15%;
+        left: 5%;
+    }
+    .t-div3{
+        position: absolute;
+        bottom: 15%;
+        right: 2%;
+    }
+    .third-section span{
+        color: #ff422a;
     }
 }
