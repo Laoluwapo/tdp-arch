@@ -1,0 +1,33 @@
+@media(max-width:450px){
+    .first-section{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        text-align: center;
+        background-color: gainsboro;
+        font-size: 1.5rem;
+    }
+    .mainsec-1{
+        margin-right: 2rem;
+    }
+    .first-section span{
+        color: #ff422a;
+    }
+    .second-1{
+        text-align: left;
+        margin-left: 2rem;
+    }
+    .second-section{
+        
+    }
+    .second-section a{
+        text-decoration: none;
+        color: #ff422a;
+        cursor: pointer;
+    }
+    .img-sec{
+        height: 15rem;
+        width: 26rem;
+    }
+}
