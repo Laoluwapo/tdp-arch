@@ -1,0 +1,294 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+nav {
+    display: flex;
+    background-color: #fff;
+    justify-content: space-between;
+    padding: 1rem 2rem;
+    position: sticky;
+    top: 0;
+    z-index: 2;
+}
+
+nav ul {
+    display: none;
+}
+
+.menu-icon {
+    font-size: 3rem;
+    color: red;
+    cursor: pointer;
+}
+
+.banner {
+    width: 100%;
+    height: 50vh;
+    position: relative;
+}
+
+.banner::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.banner video {
+    width: 100%;
+    height: 50vh;
+    object-fit: cover;
+}
+
+.company-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    z-index: 1;
+}
+
+.company-name, .company-services {
+    color: #fff;
+    font-weight: 700;
+}
+
+.company-name { 
+    font-size: 1.6rem;
+    font-weight: 700;
+    letter-spacing: .5rem;
+}
+
+.company-name-2 {
+    padding: .3rem;
+    letter-spacing: .5rem;
+    font-size: .7rem;
+    font-weight: 700;
+    background-color: #fff;
+    border-radius: .1rem;
+    text-align: center;
+    margin-bottom: .2rem;
+}
+
+.company-services {
+    font-size: .42rem;
+    letter-spacing: .11rem;
+}
+
+.hero {
+    background: url(./img/hero-image-2.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    color: #fff;
+    object-fit: cover;
+    height: 60vh;
+    position: relative;
+    margin-bottom: 1.5rem;
+}
+
+.overlay {
+    background: rgba(0, 0, 0, 0.5);
+    height: 100%;
+}
+
+.hero-wrapper {
+    position: absolute;
+    top: 50%;;
+    transform: translateY(-50%);
+    padding: 1.5rem;
+}
+
+.box-icon {
+    color: red;
+    font-size: .8rem
+}
+
+.hero-text {
+    font-size: 1.4rem;
+    font-weight: 600;
+    letter-spacing: .2rem;
+    margin-bottom: 1rem;
+}
+
+.hero-heading {
+    font-size: 2.2rem;
+    margin-bottom: 1.5rem;
+}
+
+.hero-btn {
+    outline: none;
+    background: none;
+    border: 5px solid red;
+    color: #fff;
+    font-size: 1.6rem;
+    font-weight: 600;
+    padding: .6rem 1rem;
+    transition: background .7s ease ;
+}
+
+.hero-btn:hover {
+    background: red;
+}
+
+.archi-service, .estate-service, .development-service {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 1.5rem;
+    font-weight: 600;
+    color: #000;
+}
+
+.archi-service {
+    background: #878f91;
+}
+
+.estate-service {
+    background: #BAC3C6;
+}
+
+.development-service {
+    background: #DAE4E6;
+}
+
+.plus-icon {
+    color: red;
+}
+
+@media screen and (min-width:768px) {
+    .hero-heading {
+        font-size: 3rem;
+        font-weight: 600;
+        line-height: 3rem;
+    }
+    .banner {
+        height: 100vh;
+    }
+    .banner video {
+        height: 100vh;
+    }
+}
+
+@media screen and (min-width:992px) {
+    nav {
+        height: 10vh;
+        align-items: center;
+        padding: 0 0 0 2rem;
+        gap: 10rem;
+        position: absolute;
+        top: 90vh;
+        width: 100%;
+    }
+    .remove-menu {
+        display: none;
+    }
+    nav ul {
+        flex: 1;
+        display: flex;
+        justify-content: space-between;
+    }
+    nav ul li {
+        list-style: none;
+        font-size: 1rem;
+        display: inline-block;
+        padding: 40px 10px;
+        transition: all .5s ease;
+    }
+    nav ul li:hover{
+        color: red;
+        cursor: pointer;
+    }
+    .start {
+        background-image: linear-gradient(to bottom right, #FF422A 50%,#D33516 50%);
+        background-size: 100%;
+        height: 100%;
+        color: #fff;
+        font-weight: 600;
+        transition: all .7s ease;
+    }
+    .start:hover {
+        background-image: linear-gradient(to bottom left, #FF422A 50%,#D33516 50%);
+        background-size: 115%;
+        color: #fff;
+    }
+    .greater-black {
+        color: #000;
+        margin-left: 1rem;
+    }
+    .banner {
+        height: 100vh;
+    }
+    .banner video {
+        height: 100vh;
+    }
+    .company-logo {
+        width:15rem;
+    }
+    .company-name { 
+        font-size: 3rem;
+        letter-spacing: .9rem;
+        margin-bottom: .5rem;
+    }
+    .company-name-2 {
+        padding: .8rem;
+        letter-spacing: .8rem;
+        font-size: 1.3rem;
+        border-radius: .4rem;
+        margin-bottom: .8rem;
+    }
+    .company-services {
+        font-size: .9rem;
+        letter-spacing: .11rem;
+    }
+    .hero {
+        height: 80vh;
+    }
+    .hero-text {
+        font-weight: 300;
+    }
+    .hero-heading {
+        font-size: 4.5rem;
+        font-weight: 700;
+        line-height: 5rem;
+    }
+    .hero-wrapper {
+        max-width: 50rem;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+    }
+    .archi-service, .estate-service, .development-service {
+        align-items: center;
+        min-width: 60px;
+        overflow: hidden;
+    }
+    .archi-service p, .estate-service p, .development-service p {
+        position: absolute;
+        top: 50%;
+        transform: translateX(-50%) translateY(-50%) rotate(-90deg);
+    }
+    .other-services {
+        display: flex;
+        justify-content: flex-end;
+        flex-direction: row-reverse;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+    .other-services span {
+        display: none;
+    }
+}

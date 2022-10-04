@@ -4,52 +4,63 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./img/logo.svg">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;600;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
     <title>Tdp-arch</title>
 </head>
 <body>
     <nav>
-        <img src="" alt="">
+        <img src="./img/logo.svg" alt="">
         <ul>
             <li>PORTFOLIO</li>
             <li>SERVICES</li>
             <li>INDUSTRIES</li>
             <li>ABOUT</li>
-            <li>START YOUR PROJECT <img src="" alt=""></li>
+            <li class="start">START YOUR PROJECT <i class="fa-solid fa-greater-than greater-black"></i></li>
         </ul>
-        <img src="" alt="">
+        <div class="remove-menu"><i class="fa-solid fa-bars menu-icon"></i></div>
     </nav>
     <header>
-        <div>
-            <img src="" alt="">
-            <div>
-                <p>TORGERSON</p>
-                <p>DESIGN PARTNERS</p>
-                <p>ARCHITECTURE / REAL ESTATE / DEVELOPMENT</p>
+        <div class="banner">
+            <video autoplay muted loop>
+                <source src="./Hero video.mp4">
+            </video>
+            <div class="company-box">
+                <img class="company-logo" src="./img/logo.svg" alt="">
+                <div class="company-wrapper">
+                    <p class="company-name">TORGERSON</p>
+                    <div class="company-name-2">
+                        <p>DESIGN PARTNERS</p>
+                    </div>
+                    <p class="company-services">ARCHITECTURE / REAL ESTATE / DEVELOPMENT</p>
+                </div>
             </div>
         </div>
-        <div>
-            <ul>
-                <li>SERVICES</li>
-            </ul>
-            <h1>A full-service architecture firm based in Ozark, Missouri</h1>
-            <button>LEARN MORE <img src="" alt=""></button>
+        <div class="hero">
+            <div class="overlay">
+                <div class="hero-wrapper">
+                    <p class="hero-text"><i class="fa-solid fa-square box-icon"></i> SERVICES</p>
+                    <h1 class="hero-heading">A full-service architecture firm based in Ozark, Missouri</h1>
+                    <button class="hero-btn">LEARN MORE <i class="fa-solid fa-greater-than"></i></button>
+                </div>
+            </div>
+            <section class="other-services">
+                <div class="archi-service">
+                    <p>ARCHITECTURE</p> <span><i class="fa-solid fa-plus plus-icon"></i></span>
+                </div>
+                <div class="estate-service">
+                    <p>REAL ESTATE</p> <span><i class="fa-solid fa-plus plus-icon"></i></span>
+                </div>
+                <div class="development-service">
+                    <p>DEVELOPMENT</p> <span><i class="fa-solid fa-plus plus-icon"></i></span>
+                </div>
+            </section>
         </div>
     </header>
     <main>
-        <section>
-            <div>
-                <p>ARCHITECTURE</p>
-                <img src="" alt="">
-            </div>
-            <div>
-                <p>REAL ESTATE</p>
-                <img src="" alt="">
-            </div>
-            <div>
-                <p>DEVELOPMENT</p>
-                <img src="" alt="">
-            </div>
-        </section>
         <section>
             <div>
                 <img src="" alt="">
@@ -286,5 +297,6 @@
             <p>Privacy Policy| Terms of Use| Site by Mostly Serious</p>
         </div>
     </footer>
+    <script src="https://kit.fontawesome.com/2b37ebcee8.js" crossorigin="anonymous"></script>
 </body>
 </html>
