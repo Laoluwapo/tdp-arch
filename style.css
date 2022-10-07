@@ -282,17 +282,17 @@ main{
         grid-template-rows: repeat(1, 1fr);
         height: 60vh;
         column-gap: 0.5rem;
-        background-color: black;
+        /* background-color: black; */
     }
-    .sec-image-div1, .sec-image-div2, .sec-image-div3{
+    /* .sec-image-div1, .sec-image-div2, .sec-image-div3{
         background-color: white;
     }
     .second-section article div:nth-child(2){
         background-color: white;
-    }
+    } */
     .img-sec{
         width: 100%;
-        height: 79%;
+        height: 100%;
         object-fit: cover;
     }
     .second-section h2{
@@ -500,7 +500,10 @@ main{
         color: #ff422a;
     }
     .second-section article{
-       display: block;
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
+       align-items: center;
 
     }
     /* .sec-image-div1, .sec-image-div2, .sec-image-div3{
