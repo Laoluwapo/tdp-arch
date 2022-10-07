@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 * {
     margin: 0;
     padding: 0;
@@ -283,11 +283,7 @@ nav ul {
         display: flex;
         justify-content: flex-end;
         flex-direction: row-reverse;
-=======
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+    }
 }
 @font-face {
     font-family: mont;
@@ -871,17 +867,14 @@ main{
         left: 2%;
     }
     .image-hover{
->>>>>>> main-section
         position: absolute;
         top: 0;
         left: 0;
         width: 100%;
         height: 100%;
-<<<<<<< HEAD
     }
     .other-services span {
         display: none;
-=======
         background-color: rgba(0, 0, 0, 0.6);
         color: white;
         display: flex;
@@ -981,6 +974,5 @@ main{
         height: 100%;
         width: 100%;
         object-fit: cover;
->>>>>>> main-section
     }
 }
