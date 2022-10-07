@@ -301,6 +301,7 @@ main{
     background-color: gainsboro;
     font-size: 1.3rem;
     height: 80vh;
+    margin-top: 3.2rem;
 }
 .mainsec-1{
     margin-right: 2rem;
@@ -349,6 +350,7 @@ main{
     padding-top: 1rem;
     padding-left: 1rem;
     margin-top: 4rem;
+    font-size: 1.2rem;
 }
 .second-section article a{
     text-decoration: none;
