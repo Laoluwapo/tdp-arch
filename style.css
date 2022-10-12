@@ -302,6 +302,7 @@ main{
     font-size: 1.3rem;
     height: 80vh;
     margin-top: 3.2rem;
+    background-image: url(./img/illustration.png);
 }
 .mainsec-1{
     margin-right: 2rem;
@@ -369,8 +370,8 @@ main{
     background-color: #ff422a;
     position: absolute;
     display: block;
-    height: 8px;
-    width: 8px;
+    height: 10px;
+    width: 10px;
     top: 10%;
     left: 5%;
 }
@@ -466,6 +467,10 @@ main{
     font-weight: bold;
     margin: 1rem;
 }
+.fifth-section{
+    background-image: url(./img/illustration.png);
+    background-repeat: no-repeat;
+}
 .fifth-section h2{
     color: #ff422a;
     font-weight: bolder;
@@ -497,7 +502,7 @@ main{
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: 97%;
+    width: 96%;
     height: 95%;
     z-index: 1;
     opacity: 0;
@@ -525,6 +530,127 @@ main{
     height: 100%;
     width: 100%;
     object-fit: cover;
+}
+.sixth-section{
+    background-color: #BAC3C6;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    position: relative;
+    height: 100vh;
+
+    overflow-x: auto;
+}
+.sixth-section span{
+    color: #ff422a;
+}
+.sixth-section ul li{
+    position: absolute;
+    top: 9%;
+    left: 7%;
+    font-size: 1.3rem;
+    font-weight: bold;
+    list-style: none;
+}
+.slide-show{
+    display: flex;
+    align-items: center;
+    width: 180%;
+    height: 100%;
+    position: relative;
+    margin-left: 3rem;
+}
+.back-line{
+    position: absolute;
+    top: 50%;
+    left: 5%;
+    border-top: #000 5px solid;
+    width: 90%;
+}
+.slide-show > div{
+    background-color: #fff;
+    margin: 1rem;
+    padding: 1rem;
+    font-weight: 510;
+    width: 50%;
+    height: 30%;
+    z-index: 1;
+    transition: .25s;
+    display: flex;
+    align-items: center;
+}
+.img-div{
+    width: 100%;
+    height: 100%;
+}
+.slide-show img{
+    width: 90%;
+    height: 100%;
+}
+.p-div p:nth-child(2){
+    margin-top: 2rem;
+}
+.slide-show > div:hover{
+    transform: scale(1.05);
+}
+.read-about{
+    position: absolute;
+    bottom: 10%;
+    right: 5%;
+    font-size: 1.3rem;
+    font-weight: 510;
+    transition: .25s;
+}
+.read-about:hover{
+    transform: scale(1.05);
+    cursor: pointer;
+}
+.sixth-section i{
+    color: #ff422a;
+}
+.seventh-section{
+    background-image: linear-gradient(to bottom right, #FF422A 50%,#D33516 50%);
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: all .7s ease;
+}
+.seventh-section:hover{
+    background-image: linear-gradient(to bottom left, #FF422A 50%,#D33516 50%);
+}
+.seventh-section h2{
+    font-size: 4rem;
+    color: #fff;
+}
+.seventh-section span{
+    color: #000;
+}
+.seventh-section button{
+    margin-top: 2rem;
+    padding: 1rem 3rem;
+    background-color: rgba(0, 0, 0, 0.0);
+    border: #000 5px solid;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #fff;
+    transition: .25s;
+}
+.seventh-section button span{
+    padding-left: 1rem;
+    color: #fff;
+}
+.seventh-section button:hover{
+    background-color: #000;
+}
+footer{
+    background-color: #242424;
+    color: #fff;
+    height: 100vh;
+}
+footer article{
+    display: flex;
 }
 @media(max-width:992px) {
     .first-section{
@@ -727,7 +853,7 @@ main{
         top: 50%;
         left: 50%;
         transform: translate(-50%, -50%);
-        width: 97%;
+        width: 96%;
         height: 95%;
         z-index: 1;
         opacity: 0;
