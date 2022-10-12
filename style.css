@@ -568,20 +568,8 @@ footer{
     padding: 1rem 0;
     padding-left: 1rem;
     padding-right: 4rem;
-    width: 50%;
+    width: 60%;
     outline: 0;
-}
-.footer-main button{
-    position: relative;
-    right: 1%;
-    height: 100%;
-    width: 10%;
-    background-color: #ff422a;
-    color: #fff;
-    border: none;
-}
-.footer-main button:hover{
-    cursor: pointer;
 }
 
 .footer-main ul{
@@ -959,6 +947,195 @@ footer span{
         width: 100%;
         object-fit: cover;
     }
+    .sixth-section{
+        background-color: #BAC3C6;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        position: relative;
+        height: 100vh;
+    
+        overflow-x: auto;
+    }
+    .sixth-section span{
+        color: #ff422a;
+    }
+    .sixth-section ul li{
+        position: absolute;
+        top: 9%;
+        left: 7%;
+        font-size: 1.3rem;
+        font-weight: bold;
+        list-style: none;
+    }
+    .slide-show{
+        display: flex;
+        align-items: center;
+        width: 280%;
+        height: 100%;
+        position: relative;
+        margin-left: 3rem;
+    }
+    .back-line{
+        position: absolute;
+        top: 50%;
+        left: 5%;
+        border-top: #000 5px solid;
+        width: 90%;
+    }
+    .slide-show > div{
+        background-color: #fff;
+        margin: 1rem;
+        padding: 1rem;
+        font-weight: 510;
+        width: 100%;
+        height: 40%;
+        z-index: 1;
+        transition: .25s;
+        display: flex;
+        align-items: center;
+    }
+    .img-div{
+        width: 100%;
+        height: 100%;
+    }
+    .slide-show img{
+        width: 90%;
+        height: 100%;
+    }
+    .p-div p:nth-child(2){
+        margin-top: 2rem;
+    }
+    .slide-show > div:hover{
+        transform: scale(1.05);
+    }
+    .read-about{
+        position: absolute;
+        bottom: 10%;
+        right: 5%;
+        font-size: 1.3rem;
+        font-weight: 510;
+        transition: .25s;
+    }
+    .read-about:hover{
+        transform: scale(1.05);
+        cursor: pointer;
+    }
+    .sixth-section i{
+        color: #ff422a;
+    }
+    .seventh-section{
+        background-image: linear-gradient(to bottom right, #FF422A 50%,#D33516 50%);
+        background-size: 100%;
+        height: 60vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        transition: all 1s ease;
+    }
+    .seventh-section:hover{
+        background-image: linear-gradient(to bottom left, #FF422A 50%,#D33516 50%);
+        background-size: 115%;
+    }
+    .seventh-section h2{
+        font-size: 3rem;
+        color: #fff;
+    }
+    .seventh-section span{
+        color: #000;
+    }
+    .seventh-section button{
+        margin-top: 2rem;
+        padding: 1rem 3rem;
+        background: none;
+        border: #000 5px solid;
+        font-size: 1.2rem;
+        font-weight: bold;
+        color: #fff;
+        transition: .25s;
+    }
+    .seventh-section button span{
+        padding-left: 1rem;
+        color: #fff;
+    }
+    .seventh-section button:hover{
+        background-color: #000;
+        cursor: pointer;
+    }
+    footer{
+        background-color: #242424;
+        color: #fff;
+        height: 110vh;
+        position: relative;
+    }
+    .footer-logo{
+        position: absolute;
+        top: 5%;
+        padding: 0 4rem;
+    }
+    .footer-main{
+        position: absolute;
+        top: 25%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 80%;
+        padding: 0 4rem;
+    }
+    .footer-main aside{
+        font-size: 1.8rem;
+        color: #ff422a;
+    }
+    .footer-main div:nth-child(1){
+        width: 60%;
+    }
+    .footer-main div:nth-child(2){
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 90%;
+        margin-top: 2rem;
+    }
+    .footer-main div:nth-child(2) p{
+        padding: 2rem 0;
+    }
+    .email{
+        background: none;
+        border: #ff422a 5px solid;
+        padding: 1rem 0;
+        padding-left: 1rem;
+        padding-right: 4rem;
+        width: 80%;
+        outline: 0;
+    }
+    
+    .footer-main ul{
+        display: flex;
+        justify-content: space-between;
+    }
+    footer ul li{
+        list-style: none;
+        padding: 1rem 0;
+    }
+    
+    .footer-main ul li:hover{
+        cursor: pointer;
+        text-decoration: underline;
+    }
+    footer > div{
+        position: absolute;
+        bottom: 0;
+        display: flex;
+        justify-content: space-between;
+        background-color: #000;
+        width: 100%;
+        height: 8%;
+        padding: 1rem;
+    }
+    footer span{
+        color: #ff422a;
+    }
 }
 @media(max-width:600px){
     .first-section{
@@ -1165,5 +1342,215 @@ footer span{
         height: 100%;
         width: 100%;
         object-fit: cover;
+    }
+    .sixth-section{
+        background-color: #BAC3C6;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        position: relative;
+        height: 100vh;
+    
+        overflow-x: auto;
+    }
+    .sixth-section span{
+        color: #ff422a;
+    }
+    .sixth-section ul li{
+        position: absolute;
+        top: 9%;
+        left: 7%;
+        font-size: 1.3rem;
+        font-weight: bold;
+        list-style: none;
+    }
+    .slide-show{
+        display: flex;
+        align-items: center;
+        width: 450%;
+        height: 100%;
+        position: relative;
+        margin-left: 3rem;
+    }
+    .back-line{
+        position: absolute;
+        top: 50%;
+        left: 5%;
+        border-top: #000 5px solid;
+        width: 90%;
+    }
+    .slide-show > div{
+        background-color: #fff;
+        margin: 1rem;
+        padding: 1rem;
+        font-weight: 510;
+        width: 100%;
+        height: 50%;
+        z-index: 1;
+        transition: .25s;
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+    }
+    .img-div{
+        width: 100%;
+        height: 100%;
+    }
+    .slide-show img{
+        width: 100%;
+        height: 100%;
+    }
+    .p-div p:nth-child(2){
+        margin-top: 2rem;
+    }
+    .slide-show > div:hover{
+        transform: scale(1.05);
+    }
+    .read-about{
+        position: absolute;
+        bottom: 10%;
+        left: 5%;
+        font-size: 1rem;
+        font-weight: 510;
+        transition: .25s;
+    }
+    .read-about:hover{
+        transform: scale(1.05);
+        cursor: pointer;
+    }
+    .sixth-section i{
+        color: #ff422a;
+    }
+    .seventh-section{
+        background-image: linear-gradient(to bottom right, #FF422A 50%,#D33516 50%);
+        background-size: 100%;
+        height: 60vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        transition: all 1s ease;
+    }
+    .seventh-section:hover{
+        background-image: linear-gradient(to bottom left, #FF422A 50%,#D33516 50%);
+        background-size: 115%;
+    }
+    .seventh-section h2{
+        font-size: 2rem;
+        padding: 0 2rem;
+        color: #fff;
+    }
+    .seventh-section span{
+        color: #000;
+    }
+    .seventh-section button{
+        margin-top: 2rem;
+        padding: 1rem 3rem;
+        background: none;
+        border: #000 5px solid;
+        font-size: 1.2rem;
+        font-weight: bold;
+        color: #fff;
+        transition: .25s;
+    }
+    .seventh-section button span{
+        padding-left: 1rem;
+        color: #fff;
+    }
+    .seventh-section button:hover{
+        background-color: #000;
+        cursor: pointer;
+    }
+    footer{
+        background-color: #242424;
+        color: #fff;
+        height: 115vh;
+        position: relative;
+    }
+    .footer-logo{
+        position: absolute;
+        top: 5%;
+        padding: 0 4rem;
+    }
+    .footer-main{
+        position: absolute;
+        top: 25%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 100%;
+        padding: 0 4rem;
+    }
+    .footer-main aside{
+        font-size: 1.8rem;
+        color: #ff422a;
+    }
+    .footer-main div:nth-child(1){
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        width: 100%;
+    }
+    .footer-main div:nth-child(2){
+        display: flex;
+        width: 100%;
+        margin-top: 2rem;
+    }
+    .footer-main div:nth-child(2) p{
+        padding: 2rem 0;
+    }
+    .email{
+        background: none;
+        border: #ff422a 5px solid;
+        padding: 1rem 0;
+        padding-left: 1rem;
+        padding-right: 4rem;
+        width: 100%;
+        outline: 0;
+    }
+    .footer-main div:nth-child(2) > i{
+        position: relative;
+        color: #fff;
+    }
+    .footer-main button{
+        position: relative;
+        right: 2%;
+        height: 100%;
+        width: 15%;
+        background-color: #ff422a;
+        color: #fff;
+        border: none;
+    }
+    .footer-main button:hover{
+        cursor: pointer;
+    }
+    
+    .footer-main ul{
+        display: flex;
+        justify-content: space-between;
+    }
+    footer ul li{
+        list-style: none;
+        padding: 1rem 0;
+    }
+    
+    .footer-main ul li:hover{
+        cursor: pointer;
+        text-decoration: underline;
+    }
+    footer > div{
+        position: absolute;
+        bottom: 0;
+        display: flex;
+        flex-direction: column;
+        gap: .5rem;
+        justify-content: space-between;
+        background-color: #000;
+        width: 100%;
+        height: 9%;
+        padding: 1rem;
+    }
+    footer span{
+        color: #ff422a;
     }
 }
